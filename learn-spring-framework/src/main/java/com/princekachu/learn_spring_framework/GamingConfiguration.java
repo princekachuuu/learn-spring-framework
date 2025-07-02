@@ -14,4 +14,10 @@ public class GamingConfiguration {
 
         return new PacMan();
     }
+
+    @Bean
+    public GameRunner run(GamingConsole game) {
+
+        return new GameRunner(game);
+    }
 }
