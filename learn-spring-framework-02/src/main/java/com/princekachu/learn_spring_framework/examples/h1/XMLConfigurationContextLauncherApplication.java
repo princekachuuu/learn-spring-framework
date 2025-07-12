@@ -16,7 +16,7 @@ public class XMLConfigurationContextLauncherApplication {
             System.out.println(context.getBean("name"));
             System.out.println(context.getBean("age"));
 
-           // context.getBean(GameRunner.class).run();
+            context.getBean(GameRunner.class).run();
         }
     }
 }
